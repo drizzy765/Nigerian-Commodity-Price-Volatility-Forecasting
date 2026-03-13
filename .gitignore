@@ -1,0 +1,27 @@
+# Environments
+.env
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# MLflow tracking data
+mlruns/
+mlruns.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Generated output data
+output/
+*.csv
+*.xlsx
+
+# VS Code
+.vscode/
