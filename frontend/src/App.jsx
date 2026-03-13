@@ -30,7 +30,9 @@ export default function App() {
   const fetchPrediction = async () => {
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:8000/predict', inputs);
+      // Fallback to the known deployed Render URL if the VITE_API_URL environment variable isn't set
+      const baseUrl = import.meta.env.VITE_API_URL || 'https://nigerian-commodity-price-volatility.onrender.com';
+      const response = await axios.post(`${baseUrl}/predict`, inputs);
       setResults(response.data);
     } catch (error) {
       console.error("Prediction API failed", error);
