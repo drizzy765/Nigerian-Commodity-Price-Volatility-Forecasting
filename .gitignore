@@ -25,3 +25,11 @@ output/
 
 # VS Code
 .vscode/
+
+# Node.js
+node_modules/
+dist/
+package-lock.json
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md
