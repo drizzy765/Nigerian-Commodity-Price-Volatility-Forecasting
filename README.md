@@ -1,5 +1,7 @@
 # Nigerian Commodity Price Volatility Forecasting
 
+**Live Dashboard:** [http://forecasting2.vercel.app/](http://forecasting2.vercel.app/)
+
 This project contains an institutional-grade data engineering pipeline and machine learning forecasting model designed to predict the realized volatility of key Nigerian commodities (Maize, Rice, PMS/Gasoline, and Diesel) driven by local and global macroeconomic indicators.
 
 ## Project Structure
