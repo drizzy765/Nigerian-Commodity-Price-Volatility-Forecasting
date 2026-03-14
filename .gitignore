@@ -22,6 +22,8 @@ mlruns.db
 output/
 *.csv
 *.xlsx
+!data/*.csv
+!data/*.xlsx
 
 # VS Code
 .vscode/
